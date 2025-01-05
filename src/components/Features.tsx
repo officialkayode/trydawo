@@ -6,7 +6,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">How Dawo Works</h2>
-          <h3 className="text-3xl md:text-4xl font-bold mb-6">Back the Founders You Believe In. Grow Together.</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-6">Back the Founders You Believe In. Grow Together.</h3>
           <p className="text-lg text-gray-600">
             We're building Africa's first community investment platform that lets you invest directly in founders you know and trust. Whether it's your friend building the next big thing, or that local startup you've watched grow from day one - now you can be part of their journey and success.
           </p>
