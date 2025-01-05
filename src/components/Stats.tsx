@@ -29,7 +29,7 @@ const Stats = () => {
           <div className="stat-card">
             <DollarSign className="h-12 w-12 text-primary mb-4" />
             <h3 className="text-2xl font-bold mb-2">Active Participation</h3>
-            <p className="text-gray-600">Enabling investors to actively participate in startup growth through community rounds starting from ₦50,000</p>
+            <p className="text-gray-600">Enabling investors to actively participate in startup growth through community rounds starting from $10 in your local currency</p>
           </div>
         </div>
       </div>
