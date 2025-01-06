@@ -44,7 +44,7 @@ const Features = () => {
               <Wallet className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-2">Join Community Rounds</h4>
-                <p className="text-gray-600">Participate in community investment rounds of promising African startups, starting from ₦50,000.</p>
+                <p className="text-gray-600">Participate in community investment rounds of promising African startups, starting from $10 in your local currency.</p>
               </div>
             </div>
             <div className="flex gap-4">
