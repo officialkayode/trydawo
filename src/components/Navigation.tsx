@@ -29,9 +29,15 @@ const Navigation = () => {
             <Button variant="ghost" size="icon" className="hidden md:flex">
               <Globe className="h-5 w-5" />
             </Button>
-            <Button className="bg-primary text-white hover:bg-primary/90">
-              Join Waitlist
-            </Button>
+            <a 
+              href="https://tally.so/r/wkOKa6" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-primary text-white hover:bg-primary/90">
+                Join Waitlist
+              </Button>
+            </a>
           </div>
         </div>
       </div>
