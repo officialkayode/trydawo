@@ -43,7 +43,7 @@ const FAQ = () => {
     },
     {
       question: "What are the financial requirements?",
-      answer: "2 years of financial statements covering the prior years, or financials since inception if your company is less than 2 years old. The law requires that financials used in a Form C follow the Generally Accepted Accounting Principles (GAAP) format. This includes an income statement, balance sheet, cash flow statement, and notes on the financial statements."
+      answer: "2 years of financial statements covering the prior years, or financials since inception if your company is less than 2 years old. This includes an income statement, balance sheet, cash flow statement, and notes on the financial statements."
     },
     {
       question: "How do SPVs work?",
