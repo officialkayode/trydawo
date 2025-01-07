@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
-import { Globe } from "lucide-react";
+import { Globe, Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navigation = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-4">
@@ -14,7 +21,7 @@ const Navigation = () => {
             </Link>
           </div>
 
-          {/* Navigation Links */}
+          {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/manifesto" className="text-gray-600 hover:text-primary transition-colors">
               Manifesto
@@ -38,8 +45,39 @@ const Navigation = () => {
                 Join Waitlist
               </Button>
             </a>
+            {/* Mobile Menu Button */}
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="md:hidden"
+              onClick={toggleMobileMenu}
+            >
+              <Menu className="h-5 w-5" />
+            </Button>
           </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden py-4 border-t border-gray-100">
+            <div className="flex flex-col space-y-4">
+              <Link 
+                to="/manifesto" 
+                className="text-gray-600 hover:text-primary transition-colors px-4 py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Manifesto
+              </Link>
+              <Link 
+                to="/faq" 
+                className="text-gray-600 hover:text-primary transition-colors px-4 py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                FAQ
+              </Link>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
