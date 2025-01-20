@@ -5,7 +5,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What is Community Round?",
-      answer: "Community Round — an offering when a startup lets thousands of their customers, users, & fans invest alongside VCs and angel investors."
+      answer: "Community Round — this is when a startup lets thousands of their customers, clients, & supporters invest alongside VCs and angel investors."
     },
     {
       question: "What happens during bankruptcy?",
