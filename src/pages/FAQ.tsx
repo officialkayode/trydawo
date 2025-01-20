@@ -4,6 +4,10 @@ import Navigation from "@/components/Navigation";
 const FAQ = () => {
   const faqs = [
     {
+      question: "What is Community Round?",
+      answer: "Community Round — an offering when a startup lets thousands of their customers, users, & fans invest alongside VCs and angel investors."
+    },
+    {
       question: "What happens during bankruptcy?",
       answer: "Investors are informed of implication of startup investment."
     },
